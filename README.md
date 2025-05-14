@@ -184,7 +184,7 @@ To run the script automatically at regular intervals, use a scheduler like `cron
      ```bash
      #!/bin/bash
      source /path/to/misp-connector/venv/bin/activate
-     python /path/to/misp-connector/misp_connector.py
+     python /path/to/misp-connector/luminar.py
      deactivate
      ```
    - Replace `/path/to/misp-connector` with the absolute path to your project directory.
@@ -285,7 +285,7 @@ To run the script automatically at regular intervals, use a scheduler like `cron
   - Ensure the shell/batch script uses absolute paths.
   - Verify file permissions for the script and `config.yaml`.
 - **Script Errors**:
-  - Run with `python misp_connector.py --log-level DEBUG` for detailed logs.
+  - Run with `python luminar.py --log-level DEBUG` for detailed logs.
   - Consult the script’s documentation or contact the developer.
 
 ## Additional Resources
