@@ -159,6 +159,11 @@ Before scheduling, test the script to ensure it works correctly.
    - The script produces log files (e.g., `luminar.log` in `misp-luminar` directory), verify its contents.
    - If successful, it interacts with MISP, log in to the MISP web interface to confirm the expected actions (e.g., new events or attributes).
 
+     ![ioc-event](/images/ioc-event.png)
+     ![leaked-records-event](/images/leakedrecords-event.png)
+     ![cyberfeeds-event](/images/cyberfeeds-event.png)
+     ![list-events](/images/list-events.png)
+
 4. **Troubleshoot Errors**
    - **Connection Errors**: Verify the MISP URL and API key in `config.yaml`.
    - **Missing Dependencies**: Reinstall dependencies or check for system libraries.
